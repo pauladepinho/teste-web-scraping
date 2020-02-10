@@ -64,6 +64,7 @@ function adicionarTitulo () {
 }
 
 function salvarJSON () {
+    resultado = {resultado: resultado};
     fs.writeFile ('resultadoDaPesquisa.json', JSON.stringify (resultado), function (err) {
         if(err) {
             console.log(err);
