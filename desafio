@@ -1,0 +1,15 @@
+O teste consiste em extrair as informações 
+de um site utilizando Javascript e NodeJS no processo.
+
+No link indicado (http://www.legislador.com.br/LegisladorWEB.ASP?WCI=ProjetoTramite&ID=20), 
+deve-se extrair os resultados da busca por palavra-chave "transporte".
+
+Para cada resultado da busca, é necessário extrair 
+as seguintes informações:
+- Título principal (ex: Projeto de Lei Ordinária (L) 103/2019)
+- Data
+- Situação
+- Assunto
+- Autor
+- Ementa
+- Trâmite do Projeto (Projeto, Entrada, Prazo, Devolução)

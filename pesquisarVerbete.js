@@ -1,5 +1,5 @@
-const Nightmare = require('nightmare');
-const cheerio = require('cheerio');
+const Nightmare = require ('nightmare');
+const cheerio = require ('cheerio');
 const fs = require ("fs");
 
 const nightmare = Nightmare ({ show: true });
